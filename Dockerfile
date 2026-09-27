@@ -12,3 +12,4 @@ COPY target/beestore-1.0.0.jar app.jar
 EXPOSE 8080
 # Commande de démarrage
 ENTRYPOINT ["java", "-jar", "app.jar"]
+# Copier le JAR déjà construit par Maven CC

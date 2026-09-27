@@ -48,7 +48,7 @@ pipeline {
             steps {
 
                 sh '''
-                mvn verify sonar:sonar \
+                mvn verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar \
                 -Dsonar.projectKey=medaymenrabbouche_beestore-java \
                 -Dsonar.organization=medaymenrabbouche \
                 -Dsonar.host.url=$SONAR_HOST_URL \
