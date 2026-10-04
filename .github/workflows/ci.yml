@@ -50,8 +50,8 @@ jobs:
         #   -Dsonar.qualitygate.wait=true -> attend le verdict ; le pipeline échoue si le Quality Gate est rouge
         run: >
           mvn -B sonar:sonar
-          -Dsonar.projectKey=amdouni-bilel_beestore
-          -Dsonar.organization=amdouni-bilel
+          -Dsonar.projectKey=medaymenrabbouche_beestore-java
+          -Dsonar.organization=medaymenrabbouche
           -Dsonar.host.url=https://sonarcloud.io
           -Dsonar.qualitygate.wait=true
 
